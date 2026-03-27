@@ -27,3 +27,5 @@ const validateSubmission = [
     next();
   }
 ];
+
+export default validateSubmission;
