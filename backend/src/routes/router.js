@@ -32,4 +32,5 @@ router.route("/forgotpassword").post(forgotPassword);
 router.route("/resetpassword").post(resetPassword);
 router.route("deleteuser/:id").delete(checkauth,checkrole,deleteUser);
 
+
 export default router;
